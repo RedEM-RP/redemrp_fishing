@@ -1,0 +1,14 @@
+C:\redemrp_fishing\bin\Debug\CitizenFX.Core.dll
+C:\redemrp_fishing\bin\Debug\System.Reflection.Metadata.dll
+C:\redemrp_fishing\bin\Debug\System.Collections.Immutable.dll
+C:\redemrp_fishing\bin\Debug\MsgPack.dll
+C:\redemrp_fishing\bin\Debug\CitizenFX.Core.pdb
+C:\redemrp_fishing\bin\Debug\CitizenFX.Core.xml
+C:\redemrp_fishing\bin\Debug\MsgPack.xml
+C:\redemrp_fishing\obj\Debug\redemrp_fishing.csproj.CoreCompileInputs.cache
+C:\redemrp_fishing\obj\Debug\redemrp_fishing.csproj.CopyComplete
+C:\redemrp_fishing\bin\Debug\redemrp_fishing.net.dll
+C:\redemrp_fishing\bin\Debug\redemrp_fishing.net.pdb
+C:\redemrp_fishing\obj\Debug\redemrp_fishing.net.dll
+C:\redemrp_fishing\obj\Debug\redemrp_fishing.net.pdb
+C:\redemrp_fishing\obj\Debug\redemrp_fishing.csprojAssemblyReference.cache
