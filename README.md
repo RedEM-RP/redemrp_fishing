@@ -17,7 +17,10 @@
 - Add ```ensure redemrp_fishing``` in server.cfg
 
 ## 3. How to use
-- To be done
+- U need to get fishing rod in hands
+- Then use the bait (items are preconfigured in inventory v.2.0)
+- Start fishing as you do it in online/sp
+- That's it!
 
 
 ## 4. Credits
