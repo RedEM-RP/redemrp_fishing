@@ -10,7 +10,7 @@
 
 [redemrp_inventory v2.0](https://github.com/RedEM-RP/redemrp_inventory/releases/tag/2.0.0)
 
-[pNotify](https://github.com/Nick78111/pNotify)
+[progressBars](https://github.com/PokeSerGG/progressBars)
 
 ## 2. Installation
 - Put the files into your resource folder
