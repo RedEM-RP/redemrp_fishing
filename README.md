@@ -23,7 +23,7 @@
 - That's it!
 
 ## 4. Preview
-[!alt text](https://streamable.com/jn0ybn)
+[![Watch the video](https://miro.medium.com/max/2800/1*jKqyEbQrhXBjy_4SrUjplw.jpeg)](https://streamable.com/jn0ybn)
 
 ## 5. Credits
 [Ktos93](http://github.com/Ktos93)
