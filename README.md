@@ -22,8 +22,10 @@
 - Start fishing as you do it in online/sp
 - That's it!
 
+## 4. Preview
+[!alt text](https://streamable.com/jn0ybn)
 
-## 4. Credits
+## 5. Credits
 [Ktos93](http://github.com/Ktos93)
 
 
