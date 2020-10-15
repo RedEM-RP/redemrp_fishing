@@ -249,6 +249,7 @@ namespace redemrp_fishing
 			if (this.FishingState_ == 6)
 			{
 				var bobberCoords = API.GetEntityCoords(data.BobberHandle, true, true);
+				var _bobberCoords = API.GetEntityCoords(data.BobberHandle, true, true);
 				float distance_van = API.Vdist(bobberCoords.X, bobberCoords.Y, bobberCoords.Z, 3154.16f, 572.1613f, 42.0f);
 				if (distance_van > 750.0f)
 				{
@@ -264,7 +265,7 @@ namespace redemrp_fishing
 					if (this.TargetFish != 0)
 					{
 						API.ClearPedTasks(this.TargetFish, 0, 0);
-						API.TaskGoToEntity(this.TargetFish, data.BobberHandle, -1, 0.5f, 1.5f, 0.0f, 0);
+						API.TaskGoToCoordAnyMeans(this.TargetFish, bobberCoords.X, bobberCoords.Y, bobberCoords.Z, 1.5f, 0, true, 0, 0.5f);
 						bobberCoords = API.GetEntityCoords(data.BobberHandle, true, true);
 						var fishCoords = API.GetEntityCoords(this.TargetFish, true, true);
 						var fishCoords2 = API.GetEntityCoords(this.TargetFish, true, true);
@@ -276,6 +277,12 @@ namespace redemrp_fishing
 							bobberCoords = API.GetEntityCoords(data.BobberHandle, true, true);
 							data = GetFishTaskState();
 							this.FishingState_ = data.FishingState;
+							if (API.Vdist(bobberCoords.X, bobberCoords.Y, bobberCoords.Z, _bobberCoords.X, _bobberCoords.Y, _bobberCoords.Z) > 0.5f)
+							{
+								API.ClearPedTasks(this.TargetFish, 0, 0);
+								API.TaskGoToCoordAnyMeans(this.TargetFish, bobberCoords.X, bobberCoords.Y, bobberCoords.Z, 1.5f, 0, true, 0, 0.5f);
+								_bobberCoords = API.GetEntityCoords(data.BobberHandle, true, true);
+							}
 
 						}
 						API.ClearPedTasks(this.TargetFish, 0, 0);
