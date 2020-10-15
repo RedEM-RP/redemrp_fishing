@@ -23,7 +23,7 @@
 - That's it!
 
 ## 4. Preview
-[![Watch the video](https://www.edu.uwo.ca/img/click_to_play.png)](https://streamable.com/jn0ybn)
+[![Watch the video](https://www.edu.uwo.ca/img/click_to_play.png)](https://streamable.com/gmutga)
 
 ## 5. Credits
 [Ktos93](http://github.com/Ktos93)
