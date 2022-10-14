@@ -1,5 +1,5 @@
 data = {}
-TriggerEvent("redemrp_inventory:getData",function(call)
+TriggerEvent("redemrp_inventory:getData",function(call) 
     data = call
 end)
 
