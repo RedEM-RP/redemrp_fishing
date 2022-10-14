@@ -26,7 +26,7 @@
 [![Watch the video](https://www.edu.uwo.ca/img/click_to_play.png)](https://streamable.com/gmutga)
 
 ## 5. Credits
-[Ktos93](http://github.com/Ktos93)
+[amakuu](http://github.com/amakuu)
 
 
 Join discord to get support! - https://discord.gg/FKH4uwb
